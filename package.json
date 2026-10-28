@@ -1,0 +1,21 @@
+{
+  "name": "thinkrail-agent-model-pins",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pin a model and thinking level per subagent in ThinkRail / pi, with an interactive /agent-models command.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "thinkrail",
+    "pi-coding-agent",
+    "extension",
+    "subagents",
+    "model-pinning"
+  ]
+}

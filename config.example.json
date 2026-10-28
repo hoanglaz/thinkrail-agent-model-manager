@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "agents": {
+    "scout": {
+      "model": "openai/gpt-6-luna",
+      "thinking": "low"
+    },
+    "planner": {
+      "model": "openai/gpt-6-sol",
+      "thinking": "high"
+    },
+    "worker": {
+      "model": "openai/gpt-6-sol",
+      "thinking": "medium"
+    },
+    "reviewer": {
+      "model": "openai/gpt-6-sol",
+      "thinking": "high"
+    }
+  }
+}
